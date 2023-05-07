@@ -35,17 +35,19 @@
 <body>
 	<div id='elmapp'></div>
 
-	var storedState = localStorage.getItem('player');
-	var startingState = storedState ? JSON.parse(storedState) : null;
+	<script type="text/javascript">
+			
+		var storedState = localStorage.getItem('player');
+		var startingState = storedState ? JSON.parse(storedState) : null;
+					
+		var app = Elm.Main.init({ 
+			node: document.getElementById('elmapp'),
+			flags: startingState 
+		});
 
-	var app = Elm.Main.init({ 
-		node: document.getElementById('elmapp'),
-		flags: startingState 
-	});
-
-	app.ports.setStorage.subscribe(function(state) {
-		localStorage.setItem('player', JSON.stringify(state));
-	});
+		app.ports.setStorage.subscribe(function(state) {
+			localStorage.setItem('player', JSON.stringify(state));
+		});
 
 	</script>
 </body>

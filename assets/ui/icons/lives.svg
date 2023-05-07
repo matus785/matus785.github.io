@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="49.999756mm"
+   height="45.187988mm"
+   viewBox="0 0 49.999756 45.187988"
+   version="1.1"
+   id="svg20458"
+   xml:space="preserve"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="stage.svg"
+   inkscape:export-filename="panel2.svg"
+   inkscape:export-xdpi="23.161549"
+   inkscape:export-ydpi="23.161549"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview20460"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.16"
+     inkscape:cx="13853.125"
+     inkscape:cy="-14984.375"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs20455" /><g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3839.3919,4047.6852)"><g
+       id="g490210"><path
+         style="fill:#ff5e5b;stroke-width:0.0976565"
+         d="m 3861.2829,-4003.786 -17.2559,-17.2559 c -9.8313,-9.8313 -2.9854,-26.5924 10.8097,-26.6433 0.02,-1e-4 0.04,-1e-4 0.059,-1e-4 3.4822,0 6.7874,1.1367 9.4956,3.2369 2.7235,-2.112 6.0559,-3.2476 9.5547,-3.2368 13.7872,0.051 20.6478,16.8052 10.8097,26.6434 l -17.2559,17.2559 c -1.7179,1.7179 -4.4988,1.7182 -6.2171,-1e-4 z"
+         id="path479631" /><g
+         id="g479639"
+         transform="matrix(0.09765646,0,0,0.09765646,3839.3921,-4050.0914)">
+	<circle
+   style="fill:#ff423d"
+   cx="115.866"
+   cy="196.567"
+   r="34.777"
+   id="circle479633" />
+	<circle
+   style="fill:#ff423d"
+   cx="158.784"
+   cy="266.68201"
+   r="18.177"
+   id="circle479635" />
+	<path
+   style="fill:#ff423d"
+   d="m 353.833,24.639 c -35.827,-0.111 -69.953,11.518 -97.84,33.145 v 429.569 c 25.344,0 17.491,1.155 208.532,-189.886 C 565.193,196.798 495.102,25.159 353.833,24.639 Z"
+   id="path479637" />
+</g></g></g></svg>

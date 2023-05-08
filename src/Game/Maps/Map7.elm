@@ -20,19 +20,19 @@ waveList =
         [
             create_enemy Scout -1 0
 
-            , create_enemy Warrior -0.3 3
+            , create_enemy Warrior -0.2 3
             , create_enemy Warrior -0.1 3
             , create_enemy Warrior 0.1 3
-            , create_enemy Warrior 0.3 3
+            , create_enemy Warrior 0.2 3
 
             , create_enemy Scout -1 5
 
-            , create_enemy Warrior -0.3 8
+            , create_enemy Warrior -0.2 8
             , create_enemy Warrior -0.1 8
             , create_enemy Warrior 0.1 8
-            , create_enemy Warrior 0.3 8
+            , create_enemy Warrior 0.2 8
         ] 
-        , create_wave 2 50
+        , create_wave 2 100
         [
             create_enemy Tank 1 0
 
@@ -40,13 +40,13 @@ waveList =
             , create_enemy Warrior -1 4.2
             , create_enemy Warrior -1 4.4
 
-            , create_enemy Warrior -1 6
-            , create_enemy Warrior -1 6.2
-            , create_enemy Warrior -1 6.4
+            , create_enemy Warrior -1 8
+            , create_enemy Warrior -1 8.2
+            , create_enemy Warrior -1 8.4
 
-            , create_enemy Tank 0 10
+            , create_enemy Tank 0 12
         ]
-        , create_wave 3 300
+        , create_wave 3 350
         [
             create_enemy Tank 0 0
             , create_enemy Tank 0 1
@@ -55,61 +55,52 @@ waveList =
             , create_enemy Veteran 1 5.5
             , create_enemy Veteran -1 6.5
 
-            , create_enemy Tank 0 10
-            , create_enemy Tank 0 12.5
+            , create_enemy Tank 0 12
+            , create_enemy Tank 0 13
         ]
         , create_wave 4 150
         [
             create_enemy Veteran 0 0
 
-            , create_enemy Soldier -1 1.5
-            , create_enemy Soldier -0.2 1.5
-            , create_enemy Soldier -0.1 1.5
-            , create_enemy Soldier 0.1 1.5
-            , create_enemy Soldier 0.2 1.5
-            , create_enemy Soldier 1 1.5
+            , create_enemy Soldier -1 2.5
+            , create_enemy Soldier -0.2 2.5
+            , create_enemy Soldier 0 2.5
+            , create_enemy Soldier 0.2 2.5
+            , create_enemy Soldier 1 2.5
 
-            , create_enemy Veteran 0 3
+            , create_enemy Veteran 0 5
 
-            , create_enemy Warrior 1 4
-            , create_enemy Warrior 1 4.5
-            , create_enemy Warrior 1 5
+            , create_enemy Warrior 1 6
+            , create_enemy Warrior 1 6.5
+            , create_enemy Warrior 1 7
 
-            , create_enemy Warrior -1 4
-            , create_enemy Warrior -1 4.5
-            , create_enemy Warrior -1 5
+            , create_enemy Warrior -1 6
+            , create_enemy Warrior -1 6.5
+            , create_enemy Warrior -1 7
 
-            , create_enemy Veteran 0 6
+            , create_enemy Veteran 0 8
 
-            , create_enemy Soldier -1 7.5
-            , create_enemy Soldier -0.2 7.5
-            , create_enemy Soldier -0.1 7.5
-            , create_enemy Soldier 0.1 7.5
-            , create_enemy Soldier 0.2 7.5
-            , create_enemy Soldier 1 7.5
+            , create_enemy Veteran 0 13
 
-            , create_enemy Veteran 0 9
-
-            , create_enemy Warrior 1 10
-            , create_enemy Warrior 1 10.5
-            , create_enemy Warrior 1 11
+            , create_enemy Warrior 1 14
+            , create_enemy Warrior 1 14.5
+            , create_enemy Warrior 1 15
             
-            , create_enemy Warrior -1 10
-            , create_enemy Warrior -1 10.5
-            , create_enemy Warrior -1 11
+            , create_enemy Warrior -1 14
+            , create_enemy Warrior -1 14.5
+            , create_enemy Warrior -1 15
 
-            , create_enemy Veteran 0 12
+            , create_enemy Veteran 0 16
 
-            , create_enemy Soldier -1 4.5
-            , create_enemy Soldier -0.2 4.5
-            , create_enemy Soldier -0.1 4.5
-            , create_enemy Soldier 0.1 4.5
-            , create_enemy Soldier 0.2 4.5
-            , create_enemy Soldier 1 4.5
+            , create_enemy Soldier -1 18.5
+            , create_enemy Soldier -0.2 18.5
+            , create_enemy Soldier 0 18.5
+            , create_enemy Soldier 0.2 18.5
+            , create_enemy Soldier 1 18.5
 
-            , create_enemy Veteran 0 15
+            , create_enemy Veteran 0 21
         ]
-        , create_wave 5 200
+        , create_wave 5 250
         [
             create_enemy Plane 1 0
 
@@ -221,7 +212,7 @@ waveList =
             , create_enemy HeavyTank 0 16
             , create_enemy HeavyTank -1 16
         ]
-        , create_wave 8 100
+        , create_wave 8 50
         [
             create_enemy Plane 0 0
 

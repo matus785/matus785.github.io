@@ -108,7 +108,7 @@ change_speed level newspeed =
 pause_level : Level -> Level
 pause_level level = 
     case level.lvlState of
-            NotComplete -> {level | lvlState = Lost}
+            NotComplete -> {level | lvlState = Paused}
             _ -> level
 
 unpause_level : Level -> Level

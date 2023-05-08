@@ -55,11 +55,11 @@ waveList =
             , create_enemy Soldier 0 0
             , create_enemy Soldier 1 0.25
 
-            , create_enemy Soldier -0.2 8
-            , create_enemy Soldier 0.2 8
-            , create_enemy Soldier -1 8.25
-            , create_enemy Soldier 0 8.25
-            , create_enemy Soldier 1 8.25
+            , create_enemy Soldier -0.2 8.5
+            , create_enemy Soldier 0.2 8.5
+            , create_enemy Soldier -1 8.75
+            , create_enemy Soldier 0 8.75
+            , create_enemy Soldier 1 8.75
 
             , create_enemy Warrior 1 16
             , create_enemy Warrior -1 16
@@ -92,19 +92,19 @@ waveList =
             , create_enemy Soldier 0.1 0.1
             , create_enemy Soldier 0.2 0.1
 
-            , create_enemy Tank -1 6
-            , create_enemy Tank 1 6
+            , create_enemy Tank 0 8
+            , create_enemy Tank 0 9
 
-            , create_enemy Soldier -1 10
-            , create_enemy Soldier -0.2 10
-            , create_enemy Soldier 0 10
-            , create_enemy Soldier 0.2 10
-            , create_enemy Soldier 1 10
-            , create_enemy Soldier -1 10.1
-            , create_enemy Soldier -0.2 10.1
-            , create_enemy Soldier 0 10.1
-            , create_enemy Soldier 0.2 10.1
-            , create_enemy Soldier 1 10.1
+            , create_enemy Soldier -1 14
+            , create_enemy Soldier -0.2 14
+            , create_enemy Soldier 0 14
+            , create_enemy Soldier 0.2 14
+            , create_enemy Soldier 1 14
+            , create_enemy Soldier -1 14.1
+            , create_enemy Soldier -0.2 14.1
+            , create_enemy Soldier 0 14.1
+            , create_enemy Soldier 0.2 14.1
+            , create_enemy Soldier 1 14.1
         ]  
         , create_wave 6 300
         [

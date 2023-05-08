@@ -204,8 +204,8 @@ waveList =
 
             , create_enemy Tank 1 16
             , create_enemy Tank -1 17
-            , create_enemy HeavyTank 1 18
-            , create_enemy HeavyTank -1 20
+            , create_enemy HeavyTank 1 20
+            , create_enemy HeavyTank -1 22
         ]
         , create_wave 8 300
         [

@@ -1507,8 +1507,8 @@ view state model =
                                 [
                                     speed_button 0 model 7
                                     , speed_button 1 model 8
-                                    , speed_button 3 model 9
-                                    , speed_button 8 model 10
+                                    , speed_button 2 model 9
+                                    , speed_button 3 model 10
                                 ]
                                 -- level lives, money and waves values
                                 , Element.row

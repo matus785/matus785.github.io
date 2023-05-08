@@ -40,15 +40,15 @@ waveList =
 
             , create_enemy Plane 0 4
 
-            , create_enemy Veteran 0 13
-            , create_enemy Veteran 0 13.5
+            , create_enemy Veteran 0 14
+            , create_enemy Veteran 0 14.5
 
-            , create_enemy Plane -1 16
+            , create_enemy Plane -1 17
 
-            , create_enemy Veteran 1 23
-            , create_enemy Veteran 1 23.5
+            , create_enemy Veteran 1 24
+            , create_enemy Veteran 1 24.5
 
-            , create_enemy Plane -1 27.5
+            , create_enemy Plane -1 28
         ]  
         , create_wave 4 350
         [

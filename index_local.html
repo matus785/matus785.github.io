@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Main</title>
+	<script type ="text/javascript" src = "main.js"></script>
+</head>
+
+<body>
+	<div id='elmapp'></div>
+
+	<script type="text/javascript">
+			
+		var storedState = localStorage.getItem('player');
+		var startingState = storedState ? JSON.parse(storedState) : null;
+					
+		var app = Elm.Main.init({ 
+			node: document.getElementById('elmapp'),
+			flags: startingState 
+		});
+
+		app.ports.setStorage.subscribe(function(state) {
+			localStorage.setItem('player', JSON.stringify(state));
+		});
+
+	</script>
+</body>
+
+</html>

@@ -244,7 +244,7 @@ view model =
                         , Element.column
                         [
                             width fill
-                            , height (px 30)
+                            , height (px 60)
                             , paddingXY 10 5
                             , spacing 10
                             , Element.behindContent
@@ -263,6 +263,7 @@ view model =
                         ]
                         [
                             link_text "https://github.com/ArthurGerbelot/rect-collide" "Rotated rectangles collision"
+                            , link_text "https://github.com/rafgraph/spa-github-pages" "Single Page Apps for Github Pages"
                         ]
 
                     ]

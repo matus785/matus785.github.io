@@ -40323,7 +40323,7 @@ var $author$project$Pages$Info$view = function (model) {
 											[
 												$mdgriffith$elm_ui$Element$width($mdgriffith$elm_ui$Element$fill),
 												$mdgriffith$elm_ui$Element$height(
-												$mdgriffith$elm_ui$Element$px(30)),
+												$mdgriffith$elm_ui$Element$px(60)),
 												A2($mdgriffith$elm_ui$Element$paddingXY, 10, 5),
 												$mdgriffith$elm_ui$Element$spacing(10),
 												$mdgriffith$elm_ui$Element$behindContent(
@@ -40342,7 +40342,8 @@ var $author$project$Pages$Info$view = function (model) {
 											]),
 										_List_fromArray(
 											[
-												A2($author$project$Pages$Info$link_text, 'https://github.com/ArthurGerbelot/rect-collide', 'Rotated rectangles collision')
+												A2($author$project$Pages$Info$link_text, 'https://github.com/ArthurGerbelot/rect-collide', 'Rotated rectangles collision'),
+												A2($author$project$Pages$Info$link_text, 'https://github.com/rafgraph/spa-github-pages', 'Single Page Apps for Github Pages')
 											]))
 									]))
 							])))

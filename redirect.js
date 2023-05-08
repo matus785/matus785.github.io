@@ -1,6 +1,7 @@
 // Single Page Apps for GitHub Pages
-// MIT License
-// https://github.com/rafgraph/spa-github-pages
+// https://github.com/rafrex/spa-github-pages
+// Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+// ----------------------------------------------------------------------
 // This script checks to see if a redirect is present in the query string,
 // converts it back into the correct url and adds it to the
 // browser's history using window.history.replaceState(...),
@@ -10,12 +11,20 @@
 // the single page app to route accordingly.
 
 (function(l) {
-if (l.search[1] === '/' ) {
-    var decoded = l.search.slice(1).split('&').map(function(s) { 
-    return s.replace(/~and~/g, '&')
-    }).join('?');
-    window.history.replaceState(null, null,
-        l.pathname.slice(0, -1) + decoded + l.hash
-    );
-}
-}(window.location))
+    if (l.search) {
+      var q = {};
+      l.search
+        .slice(1)
+        .split("&")
+        .forEach(function(v) {
+          var a = v.split("=");
+          q[a[0]] = a
+            .slice(1)
+            .join("=")
+            .replace(/~and~/g, "&");
+        });
+      if (q.p !== undefined) {
+        window.history.replaceState(null, null, l.pathname.slice(0, -1) + (q.p || "") + (q.q ? "?" + q.q : "") + l.hash);
+      }
+    }
+  })(window.location);

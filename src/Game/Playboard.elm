@@ -206,7 +206,8 @@ move_entities board dt =
         (deadEnemies, aliveEnemies) = List.partition (\o -> o.health <= 0) newEnemies
 
         -- move enemies on map and filter enemies out of map
-        (escapedEnemies, movedEnemies) = List.partition (\o-> out_of_map o.posXY board.rowCol) (List.map (\o-> move_enemy o board.path dt) aliveEnemies)
+        (escapedEnemies, movedEnemies) = 
+            List.partition (\o-> out_of_map o.posXY board.rowCol) (List.map (\o-> move_enemy o board.path dt) aliveEnemies)
 
         -- move and filter projectiles on map
         movedProjectiles = List.filterMap identity (List.map (\o-> move_projectile o board.rowCol dt) newProjectiles)

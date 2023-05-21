@@ -90,7 +90,7 @@ gameResources =
         , "/assets/enemies/tank-heavy.png"
         , "/assets/enemies/plane-light.png"
         , "/assets/enemies/plane-heavy.png"
-        -- Pprojectiles
+        -- Projectiles
         , "/assets/projectiles/bullet.png"
         , "/assets/projectiles/bullet-tall.png"
         , "/assets/projectiles/bullet-wide.png"

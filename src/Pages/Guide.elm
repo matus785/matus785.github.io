@@ -1223,7 +1223,7 @@ left_panel model currentCategory =
                     [
                         Element.el [Font.bold]
                         (Element.text "Level Speed")
-                        , (Element.text " doesn't affect clear time counter for completing levels, therefore ")
+                        , (Element.text " influences timer for completing levels, therefore ")
                         , Element.el [Font.bold, Font.underline]
                         (Element.text "Higher")
                         , (Element.text " speed means ")

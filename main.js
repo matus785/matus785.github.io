@@ -39420,7 +39420,7 @@ var $author$project$Pages$Guide$left_panel = F2(
 										_List_fromArray(
 											[$mdgriffith$elm_ui$Element$Font$bold]),
 										$mdgriffith$elm_ui$Element$text('Level Speed')),
-										$mdgriffith$elm_ui$Element$text(' doesn\'t affect clear time counter for completing levels, therefore '),
+										$mdgriffith$elm_ui$Element$text(' influences timer for completing levels, therefore '),
 										A2(
 										$mdgriffith$elm_ui$Element$el,
 										_List_fromArray(
